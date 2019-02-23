@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:background="@drawable/backgroundmain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingTop="56dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="344dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"
+            android:contentDescription="logo"
+            android:src="@drawable/logo_transparent"
+            tools:srcCompat="@drawable/logo_transparent" />
+
+        <Button
+            android:id="@+id/login"
+            android:layout_marginLeft="26dp"
+            android:layout_marginRight="26dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login With Google"
+            android:drawableStart="@drawable/googlebtn"
+            android:textAllCaps="false"
+            android:background="@drawable/round_bg"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+</LinearLayout>
